@@ -3,7 +3,7 @@ inventory = {"beer"=>20, "chips"=>50, "wine"=> 17, "veggies"=>32}
 actions = ["adjust","add","delete","nothing"]
 
 puts inventory
-action = ""
+action = ''
 
 while action != "nothing"
   puts "What would you like to do? ADJUST a current item, ADD a new item, DELETE an item, or NOTHING? (one word, please)"
